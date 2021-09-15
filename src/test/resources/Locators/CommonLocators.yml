@@ -1,0 +1,37 @@
+Pages :
+  - Pagename : Pagename
+    Locators :
+      - Lname : Lname1
+        web: Ltype=Lvalue
+        android : Ltype=Lvalue
+        ios : Ltype=Lvalue
+
+      - Lname: Lname1
+        android :
+        ios :
+
+  - Pagename : Monefy_HomePage
+    Locators :
+      - Lname : icon_hamburger
+        android : xpath=//*[@content-desc="Open navigation"]
+
+      - Lname : icon_Search
+        android : xpath=//*[@content-desc="Search records"]
+
+      - Lname : icon_transfer
+        android : xpath=//*[@content-desc="Transfer"]
+
+      - Lname : icon_settings
+        android : xpath=//*[@content-desc="Settings"]
+
+      - Lname : text_monefyLogo
+        android : xpath=//*[@resource-id="com.monefy.app.lite:id/toolbar"]/android.widget.TextView[1]
+
+      - Lname : button_expense
+        android : id=com.monefy.app.lite:id/expense_button
+
+      - Lname : button_income
+        android : id=com.monefy.app.lite:id/income_button
+
+      - Lname : icon_balanceOverview
+        android : id=com.monefy.app.lite:id/leftLinesImageView
